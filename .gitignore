@@ -1,0 +1,64 @@
+# Dependencies / build junk
+node_modules/
+**/bin/
+**/obj/
+**/.gradle/
+**/build/
+**/.idea/
+**/*.user
+**/local.properties
+*.log
+.DS_Store
+Thumbs.db
+
+# Phone / Android — not part of the public desktop release yet
+android/
+
+# Built binaries & shipping packs (source only on GitHub — no releases)
+dist/
+releases/
+release/
+out/
+artifacts/
+*.zip
+*.7z
+*.rar
+*.exe
+*.apk
+*.aab
+*.msi
+*.msix
+*.appx
+*.dmg
+*.AppImage
+
+# Runtime data (EPG cache, DB, logs, logos)
+data/
+**/data/
+
+# Personal playlist accounts & layout (real credentials)
+config/
+**/config/playlists.json
+**/config/layout.ini
+
+# Keep committed example templates (negate the config/ rule for these only)
+!config/
+!config/playlists.example.json
+!config/layout.example.ini
+
+# Local MAG / probe dumps (contain portal URLs + MACs)
+mag_*.json
+mag_probe*.json
+mag_tested*.json
+*_probe*.json
+*_tested_working.json
+mag_probe_media_test.json
+mag_probe_results.json
+mag_probe_summary.json
+mag_tested_working.json
+
+# Local design / mock screenshots (optional — large binaries)
+# Uncomment if you do not want these on GitHub:
+# *.jpg
+# *.png
+# !app/public/**

@@ -1,0 +1,24 @@
+{
+  "name": "cipher",
+  "version": "1.0.0",
+  "description": "Cipher — IPTV with HTML UI + native libVLC (proxy only, no ffmpeg remux)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js --mode=apk --host=0.0.0.0 --port=8092 --ui=desktop",
+    "start:apk": "node server.js --mode=apk --port=8092 --ui=phone",
+    "start:desktop": "node server.js --mode=apk --host=127.0.0.1 --port=8092 --ui=desktop",
+    "check": "node --check server.js",
+    "probe:mag": "node scripts/probe-mag-accounts.js",
+    "probe:mag-media": "node scripts/probe-mag-media.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "hls.js": "^1.5.20",
+    "mpegts.js": "^1.8.0",
+    "sql.js": "^1.12.0"
+  }
+}

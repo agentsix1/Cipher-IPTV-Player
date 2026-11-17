@@ -1,0 +1,92 @@
+Cipher Source License
+Copyright (c) 2026 Cipher contributors
+
+================================================================================
+IN PLAIN ENGLISH (quick skim — the legal text below is what counts)
+================================================================================
+
+  Allowed
+  - Use Cipher yourself
+  - Change the code for your own use
+  - Send improvements back via pull request
+
+  Not allowed
+  - Share, publish, or redistribute Cipher (original or modified)
+  - Put up your own public fork/releases for others to download
+  - Sell it or use it commercially
+
+  Short version: personal use + PRs back here = OK. Giving Cipher (or your
+  modified build) to other people = not OK.
+
+================================================================================
+LEGAL TERMS
+================================================================================
+
+Permission is granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to use and modify
+the Software for personal, private purposes only, subject to the following
+conditions:
+
+1. Personal use and modification
+   You may run the Software and create modified versions solely for your own
+   personal, non-commercial use on devices you control.
+
+2. No redistribution
+   You may not distribute, publish, share, upload, host, sell, sublicense, or
+   otherwise make available the Software, in original or modified form, to any
+   third party, whether publicly or privately (including but not limited to
+   GitHub forks published as separate projects, file hosts, app stores,
+   installers, portable packs, containers, or mirrors).
+
+   Exception — contributions to this project: Section 5 expressly allows
+   submitting changes to the official Cipher repository (for example via a
+   pull request). That narrow path is not “redistribution” under this License.
+
+3. No distribution of modified versions
+   You may not distribute, publish, or otherwise provide modified versions of
+   the Software (including patches, forks, builds, or derivative works) to any
+   third party, except as allowed under Section 5 for contributing upstream.
+
+4. No commercial use
+   You may not use the Software, or any modified version, for commercial
+   purposes, including offering it as a service, bundling it with a product or
+   subscription, or using it to operate a paid or ad-supported service.
+
+5. Contributions (pull requests encouraged)
+   You may modify the Software and submit those changes to the maintainers of
+   the official Cipher project, including by opening a pull request, patch, or
+   similar contribution against the upstream repository.
+
+   For that purpose only, you may use a temporary personal fork or branch on
+   GitHub (or a similar host) solely to prepare and submit the pull request.
+   You may not treat that fork as a place to publish, promote, or redistribute
+   Cipher (original or modified) for others to download or use as a substitute
+   for this project.
+
+   By submitting a contribution, you represent that you have the right to offer
+   it, and you grant the maintainers a perpetual, worldwide, royalty-free
+   license to use, modify, sublicense under this License, and incorporate your
+   contribution into the Software. That grant does not give you (or anyone else)
+   permission to redistribute the Software outside Section 5.
+
+6. Notices
+   This copyright notice and this License text must be retained in all copies
+   of the Software that you keep for personal use.
+
+7. No trademark rights
+   This License does not grant permission to use the name "Cipher", logos, or
+   other brand assets except as needed to identify the Software for personal use.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Third-party components (including libVLC / VideoLAN libraries and other
+dependencies) remain under their own licenses. This License covers only the
+Cipher project source and materials distributed with it under this notice.
+Those third-party terms may impose additional obligations if you were permitted
+to redistribute binaries — which this License does not allow.

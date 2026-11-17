@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "playlists": [
+    {
+      "name": "Example M3U",
+      "type": "m3u",
+      "url": "https://example.com/playlist.m3u"
+    },
+    {
+      "name": "Example Xtream",
+      "type": "xtream",
+      "url": "http://example.com:8080",
+      "username": "YOUR_USER",
+      "password": "YOUR_PASS"
+    },
+    {
+      "name": "Example MAG",
+      "type": "mag",
+      "url": "http://example.com",
+      "mac": "00:1A:79:00:00:00"
+    }
+  ]
+}
