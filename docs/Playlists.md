@@ -1,5 +1,7 @@
 # Add a playlist
 
+> Cipher does **not** supply IPTV service or media. You must use a playlist / login you already have and are allowed to use. This project ships **empty** config — no channels or accounts.
+
 Playlists are configured **in the app** (Settings → Playlists) or via local files next to a portable build. **Never commit real logins** — `config/playlists.json` is gitignored.
 
 ## In the app (recommended)

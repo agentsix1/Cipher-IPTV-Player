@@ -10,9 +10,17 @@
 >
 > Use at your own risk. Feedback from developers is welcome; end-user “it doesn’t work on my PC” support is not the focus yet.
 
+> ## Player only — not an IPTV service
+>
+> **Cipher does not provide IPTV, live TV, movies, shows, or any streaming content.**
+>
+> It is software that can play streams **you** supply (for example via your own M3U, Xtream, or MAG credentials from a provider you already have). This repository includes **no playlists, no channels, no accounts, and no media**.
+>
+> You are responsible for using Cipher only with content and services you are legally allowed to access. The authors are not affiliated with any IPTV provider and do not sell, host, or redistribute streams.
+
 ---
 
-**Cipher** is a Windows desktop IPTV player: HTML UI + native **libVLC**, with a local Node proxy (no ffmpeg remux).
+**Cipher** is a Windows desktop **media player** for IPTV-style playlists: HTML UI + native **libVLC**, with a local Node proxy (no ffmpeg remux).
 
 | | |
 | --- | --- |
@@ -54,9 +62,11 @@ Or jump to **[docs/Getting-Started.md](docs/Getting-Started.md)**.
 
 ## What this project is *not*
 
-- Not a finished product or a TiviMate / commercial IPTV clone.
+- **Not an IPTV service** — no streams, channels, VODs, or subscriptions are provided here.
+- Not a source of playlists, credentials, or pirated content.
+- Not a finished product or a clone of any commercial IPTV app.
 - Not a place to download prebuilt installers.
-- Not affiliated with any IPTV provider.
+- Not affiliated with any IPTV provider, network, or content owner.
 
 ## License
 

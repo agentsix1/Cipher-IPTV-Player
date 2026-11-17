@@ -5,9 +5,10 @@ Cipher is a **Windows desktop** IPTV client in **early development**. Expect bug
 ## Before you start
 
 1. Read the warning on the [main README](../README.md) — this is not ready for everyday use.
-2. You will **build from source**. This project does not ship `.exe` / `.apk` files or GitHub Releases.
-3. Only the **desktop** app is documented and intended for experimenters right now.
-4. Read [`LICENSE`](../LICENSE): personal use and private modification only — **no** redistribution or publishing of originals or modified builds.
+2. Cipher is a **player only**. It does **not** provide IPTV service or content; you bring your own legal playlist/credentials.
+3. You will **build from source**. This project does not ship `.exe` / `.apk` files or GitHub Releases.
+4. Only the **desktop** app is documented and intended for experimenters right now.
+5. Read [`LICENSE`](../LICENSE): personal use and private modification only — **no** redistribution or publishing of originals or modified builds.
 
 ## Checklist
 
